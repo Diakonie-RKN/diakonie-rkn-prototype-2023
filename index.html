@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diakonie Prototype</title>
+  </head>
+  <body>
+    <header
+      class="container mx-auto flex flex-row items-center justify-between px-12 py-6 text-white"
+    >
+      <img
+        src="public/logo-diakonie-rkn-inverted.svg"
+        alt="Diakonie Logo"
+        class="h-12"
+      />
+      <nav class="flex flex-row items-center gap-6">
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-6 w-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            />
+          </svg>
+        </button>
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-8 w-8"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <section
+      class="container mx-auto flex h-screen flex-col items-center justify-center gap-8 overflow-hidden rounded-t-lg bg-gray-800/80 bg-[url('https://source.unsplash.com/featured/1600x900')] bg-cover bg-center px-12 py-32 bg-blend-color backdrop-blur-2xl sm:h-auto lg:py-48 xl:py-64"
+    >
+      <h2 class="text-4xl text-white">Entdecken Sie unsere Hilfsangebote</h2>
+      <div class="flex flex-row items-center gap-1">
+        <input
+          type="search"
+          class="rounded-full px-3 py-1 text-2xl"
+          placeholder="Suche"
+        />
+        <button class="rounded-lg bg-gray-300 px-3 py-1 text-2xl uppercase">
+          Suchen
+        </button>
+      </div>
+      <div class="flex flex-col gap-4 text-sm">
+        <h2 class="text-center font-bold text-white shadow-2xl">Top-Themen:</h2>
+        <ul class="flex flex-row gap-2">
+          <li>
+            <a href="#" class="rounded-full bg-gray-600 px-3 py-1 text-white"
+              >Kindertagesstätten</a
+            >
+          </li>
+          <li>
+            <a href="#" class="rounded-full bg-gray-600 px-3 py-1 text-white"
+              >Seniorenheime</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="rounded-full bg-gray-600 px-3 py-1 text-white"
+              >Ambulant betreutes Wohnen</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container mx-auto bg-white p-12">
+      <p class="text-lg leading-relaxed">
+        Die Diakonie Rhein-Kreis Neuss ist die soziale Arbeit der Evangelischen
+        Kirche. Mit über 75 Diensten und Einrichtungen und mehr als 1.000
+        Mitarbeitenden helfen und unterstützen wir mit dem Anspruch
+        Nächstenliebe zu stiften für Menschen in den Regionen Dormagen,
+        Grevenbroich, Jüchen, Korschenbroich, Neuss und Rommerskirchen.
+      </p>
+    </section>
+    <section class="container mx-auto grid gap-8 bg-gray-900/80 md:grid-cols-2">
+      <figure>
+        <img
+          src="https://source.unsplash.com/featured/1600x1600"
+          alt="Placeholder"
+          class="h-full w-full"
+          width="1600"
+          height="1600"
+        />
+      </figure>
+      <div class="flex flex-col justify-center gap-6 p-12">
+        <h2 class="text-6xl font-bold text-white">Karriere bei der Diakonie</h2>
+        <ul class="flex flex-row gap-2">
+          <li>
+            <a href="#" class="rounded-full bg-gray-600 px-3 py-1 text-white"
+              >Kita-Jobs</a
+            >
+          </li>
+          <li>
+            <a href="#" class="rounded-full bg-gray-600 px-3 py-1 text-white"
+              >Pflege-Jobs</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="rounded-full bg-gray-600 px-3 py-1 text-white"
+              >Alle Stellenangebote</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container mx-auto bg-white p-12">
+      <h2 class="text-5xl font-bold">Unsere Hilfsangebote</h2>
+      <ul class="mt-6 grid grid-cols-12 gap-6">
+        <li
+          class="relative col-span-6 h-96 overflow-hidden rounded-lg bg-gray-100 bg-[url('https://source.unsplash.com/featured/450x800')] bg-cover bg-center shadow md:col-span-4 xl:col-span-3"
+        >
+          <div
+            class="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black/50 p-6 text-xl font-bold text-white"
+          >
+            <a href="#">Arbeit und Soziales</a>
+          </div>
+        </li>
+        <li
+          class="relative col-span-6 h-96 overflow-hidden rounded-lg bg-gray-100 bg-[url('https://source.unsplash.com/featured/450x801')] bg-cover bg-center shadow md:col-span-4 xl:col-span-3"
+        >
+          <div
+            class="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black/50 p-6 text-xl font-bold text-white"
+          >
+            <a href="#">Kinder- und Jugendhilfe</a>
+          </div>
+        </li>
+        <li
+          class="relative col-span-6 h-96 overflow-hidden rounded-lg bg-gray-100 bg-[url('https://source.unsplash.com/featured/450x802')] bg-cover bg-center shadow md:col-span-4 xl:col-span-3"
+        >
+          <div
+            class="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black/50 p-6 text-xl font-bold text-white"
+          >
+            <a href="#">Familien- und Erwachsenenhilfe</a>
+          </div>
+        </li>
+        <li
+          class="relative col-span-6 h-96 overflow-hidden rounded-lg bg-gray-100 bg-[url('https://source.unsplash.com/featured/450x803')] bg-cover bg-center shadow md:col-span-4 xl:col-span-3"
+        >
+          <div
+            class="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black/50 p-6 text-xl font-bold text-white"
+          >
+            <a href="#">Hilfen im Alter</a>
+          </div>
+        </li>
+      </ul>
+      <p class="mt-6 text-center">
+        <a
+          href="#"
+          class="rounded-full bg-gray-500 px-3 py-2 font-bold text-white"
+          >Mehr...</a
+        >
+      </p>
+    </section>
+    <section class="container mx-auto bg-white p-12">
+      <h2 class="text-center text-4xl font-bold">
+        Unsere aktuellen Nachrichten
+      </h2>
+      <div class="mt-10 grid grid-cols-12 divide-x">
+        <article class="col-span-12 pr-6 lg:col-span-4">
+          <a href="#">
+            <a
+              href="#"
+              class="rounded-full bg-gray-400 px-3 py-1 text-xs text-white"
+              >Quartiersarbeit</a
+            >
+            <h3 class="mt-2 text-xl font-bold">
+              Aktuelle Angebote des Lotsenpunkt im Januar 2023
+            </h3>
+            <p class="mt-2 text-sm text-gray-600">10. Januar 2023</p>
+          </a>
+        </article>
+        <article class="col-span-12 px-6 lg:col-span-4">
+          <a href="#">
+            <a
+              href="#"
+              class="rounded-full bg-gray-400 px-3 py-1 text-xs text-white"
+              >Gottesdienst</a
+            >
+            <h3 class="mt-2 text-xl font-bold">
+              "Herzensfrieden" in der Dietrich-Bonhoeffer-Kirche
+            </h3>
+            <p class="mt-2 text-sm text-gray-600">3. November 2022</p>
+          </a>
+        </article>
+        <article class="col-span-12 pl-6 lg:col-span-4">
+          <a href="#">
+            <a
+              href="#"
+              class="rounded-full bg-gray-400 px-3 py-1 text-xs text-white"
+              >Kindertagesstätten</a
+            >
+            <h3 class="mt-2 text-xl font-bold">
+              Kurse & Fortbildungen für Kita-Mitarbeitende
+            </h3>
+            <p class="mt-2 text-sm text-gray-600">25. Oktober 2022</p>
+          </a>
+        </article>
+      </div>
+      <p class="mt-6 text-center">
+        <a
+          href="#"
+          class="rounded-full bg-gray-500 px-3 py-2 font-bold text-white"
+          >Mehr...</a
+        >
+      </p>
+    </section>
+    <hr class="container m-0 mx-auto h-1 border-0 bg-gray-200" />
+    <section
+      class="container mx-auto flex flex-row gap-12 rounded-b-lg bg-white p-12"
+    >
+      <div>
+        <h2 class="text-3xl font-bold">Diakonie Prototype</h2>
+        <p>This is a prototype.</p>
+      </div>
+      <div>
+        <ul class="flex flex-row gap-4">
+          <li class="h-28 w-28 bg-dw-area-1"></li>
+          <li class="h-28 w-28 bg-dw-area-2"></li>
+          <li class="h-28 w-28 bg-dw-area-3"></li>
+          <li class="h-28 w-28 bg-dw-area-4"></li>
+          <li class="h-28 w-28 bg-dw-cyan"></li>
+          <li class="h-28 w-28 bg-[#FBE84D]"></li>
+          <li class="h-28 w-28 bg-[#D32D7D]"></li>
+        </ul>
+      </div>
+    </section>
+    <section
+      class="container mx-auto flex flex-row justify-between p-12 text-white"
+    >
+      <div>
+        <div class="flex flex-row gap-3">
+          <img
+            src="public/logo-diakonie-kronenkreuz.svg"
+            alt="Diakonie Logo"
+            class="h-12 w-12"
+          />
+          <div>
+            <p class="font-bold">Diakonie Rhein-Kreis Neuss e.V.</p>
+            <p class="mt-1 text-sm">Venloer Straße 68 - 41462 Neuss</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <ul class="flex flex-row justify-end gap-4">
+          <li>
+            <a href="#"><img src="public/facebook.svg" class="h-8 w-8" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="public/instagram.svg" class="h-8 w-8" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="public/firstbird.svg" class="h-8 w-8" /></a>
+          </li>
+        </ul>
+        <nav class="mt-3 flex flex-row gap-4 font-bold underline">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+        </nav>
+      </div>
+    </section>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
